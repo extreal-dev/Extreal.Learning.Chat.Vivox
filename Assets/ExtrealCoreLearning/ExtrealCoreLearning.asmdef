@@ -1,0 +1,30 @@
+{
+    "name": "ExtrealCoreLearning",
+    "rootNamespace": "ExtrealCoreLearning",
+    "references": [
+        "Cinemachine",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "UniTask",
+        "UniRx",
+        "VContainer",
+        "VivoxUnity",
+        "Extreal.Core.Logging",
+        "Extreal.Core.StageNavigation",
+        "Extreal.Integration.Chat.Vivox"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
