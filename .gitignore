@@ -60,4 +60,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 .idea
-VivoxAppConfig.asset*
+ChatConfig.asset*
