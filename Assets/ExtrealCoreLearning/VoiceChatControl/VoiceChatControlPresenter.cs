@@ -1,5 +1,4 @@
-﻿using System;
-using Extreal.Core.Common.System;
+﻿using Extreal.Core.Common.System;
 using UniRx;
 using VContainer.Unity;
 
