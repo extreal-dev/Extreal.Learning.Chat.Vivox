@@ -1,9 +1,10 @@
 ﻿using System;
+using Extreal.Core.Common.System;
 using UniRx;
 
 namespace ExtrealCoreLearning.VoiceChatControl
 {
-    public class VoiceChatChannel : IDisposable
+    public class VoiceChatChannel : DisposableBase
     {
         public IObservable<bool> IsMute => isMute;
         private ReactiveProperty<bool> isMute = new ReactiveProperty<bool>();
@@ -18,7 +19,7 @@ namespace ExtrealCoreLearning.VoiceChatControl
             isMute.Value = !isMute.Value;
         }
 
-        public void Dispose()
+        protected override void ReleaseManagedResources()
         {
             isMute.Dispose();
         }

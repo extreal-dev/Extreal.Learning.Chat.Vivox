@@ -11,6 +11,7 @@
         "VivoxUnity",
         "Extreal.Core.Logging",
         "Extreal.Core.StageNavigation",
+        "Extreal.Core.Common",
         "Extreal.Integration.Chat.Vivox"
     ],
     "includePlatforms": [

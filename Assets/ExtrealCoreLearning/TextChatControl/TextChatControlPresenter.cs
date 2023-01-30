@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Extreal.Core.Common.System;
 using UniRx;
 using VContainer.Unity;
 
 namespace ExtrealCoreLearning.TextChatControl
 {
-    public class TextChatControlPresenter : IInitializable, IDisposable
+    public class TextChatControlPresenter : DisposableBase, IInitializable
     {
         private readonly TextChatControlView textChatControlView;
 
@@ -23,7 +23,7 @@ namespace ExtrealCoreLearning.TextChatControl
             }).AddTo(disposables);
         }
 
-        public void Dispose()
+        protected override void ReleaseManagedResources()
         {
             disposables.Dispose();
         }

@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Extreal.Core.Common.System;
 using UniRx;
 using VContainer.Unity;
 
 namespace ExtrealCoreLearning.VoiceChatControl
 {
-    public class VoiceChatControlPresenter : IInitializable, IDisposable
+    public class VoiceChatControlPresenter : DisposableBase, IInitializable
     {
         private readonly VoiceChatControlView voiceChatControlView;
         private readonly CompositeDisposable disposables = new CompositeDisposable();
@@ -30,7 +30,7 @@ namespace ExtrealCoreLearning.VoiceChatControl
             }).AddTo(disposables);
         }
 
-        public void Dispose()
+        protected override void ReleaseManagedResources()
         {
             voiceChatChannel.Dispose();
             disposables.Dispose();
