@@ -38,12 +38,10 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "1.17.7",
+      "version": "2.0.1",
       "depth": 0,
       "source": "registry",
-      "dependencies": {
-        "com.unity.services.core": "1.0.1"
-      },
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.editorcoroutines": {
@@ -65,17 +63,17 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.ide.visualstudio": "2.0.16",
-        "com.unity.ide.rider": "3.0.16",
+        "com.unity.ide.visualstudio": "2.0.17",
+        "com.unity.ide.rider": "3.0.18",
         "com.unity.ide.vscode": "1.2.5",
         "com.unity.editorcoroutines": "1.0.0",
-        "com.unity.performance.profile-analyzer": "1.1.1",
+        "com.unity.performance.profile-analyzer": "1.2.2",
         "com.unity.test-framework": "1.1.31",
         "com.unity.testtools.codecoverage": "1.2.2"
       }
     },
     "com.unity.ide.rider": {
-      "version": "3.0.16",
+      "version": "3.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -84,7 +82,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.16",
+      "version": "2.0.17",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -100,7 +98,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.4.4",
+      "version": "1.5.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -123,7 +121,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
-      "version": "1.1.1",
+      "version": "1.2.2",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -137,8 +135,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.core": {
-      "version": "1.6.0",
-      "depth": 1,
+      "version": "1.7.1",
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.unitywebrequest": "1.0.0",
@@ -148,7 +146,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.vivox": {
-      "version": "15.1.190000-pre.1",
+      "version": "15.1.190400-pre.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -243,7 +241,7 @@
       }
     },
     "com.unity.visualscripting": {
-      "version": "1.7.8",
+      "version": "1.8.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -260,20 +258,20 @@
       "hash": "f45424822189ebd875d864a17d7f03b72eafbff7"
     },
     "jp.co.tis.extreal.core.common": {
-      "version": "https://github.com/extreal-dev/Extreal.Core.Common.git#1.0.0-next.1",
+      "version": "https://github.com/extreal-dev/Extreal.Core.Common.git#1.0.0-next.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "jp.co.tis.extreal.core.logging": "1.0.0"
+        "jp.co.tis.extreal.core.logging": "1.1.0-next.1"
       },
-      "hash": "90883878a1545cc366aa3ad50b469fe77bcf1f54"
+      "hash": "36e2abaa6c7a1d21ec35627a3e8506077a41f5c1"
     },
     "jp.co.tis.extreal.core.logging": {
-      "version": "https://github.com/extreal-dev/Extreal.Core.Logging.git#1.0.0",
+      "version": "https://github.com/extreal-dev/Extreal.Core.Logging.git#1.1.0-next.1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "bebed14749cec01ddb4a9db1891a8e99c9a04563"
+      "hash": "e29bd411f9644624be23a09b4c59ae173fc89199"
     },
     "jp.co.tis.extreal.core.stagenavigation": {
       "version": "https://github.com/extreal-dev/Extreal.Core.StageNavigation.git#1.1.0-next.1",
@@ -288,17 +286,17 @@
       "hash": "a6a88fcbb2e39cde7334746513a40344165d4a91"
     },
     "jp.co.tis.extreal.integration.chat.vivox": {
-      "version": "https://github.com/extreal-dev/Extreal.Integration.Chat.Vivox.git#1.1.0-next.1",
+      "version": "https://github.com/extreal-dev/Extreal.Integration.Chat.Vivox.git#1.1.0-next.2",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "jp.co.tis.extreal.core.logging": "1.0.0",
-        "jp.co.tis.extreal.core.common": "1.0.0-next.1",
-        "com.unity.services.vivox": "15.1.190000-pre.1",
+        "jp.co.tis.extreal.core.logging": "1.1.0-next.1",
+        "jp.co.tis.extreal.core.common": "1.0.0-next.2",
+        "com.unity.services.vivox": "15.1.190400-pre.1",
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0"
       },
-      "hash": "1f9fb208bd35e7da46b638d1510b06a52082ca58"
+      "hash": "ef07cc92db267b4f658bb4ea2aac38ce340e83fa"
     },
     "jp.hadashikick.vcontainer": {
       "version": "1.12.0",
