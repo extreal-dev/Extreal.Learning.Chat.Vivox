@@ -275,14 +275,14 @@
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0"
       },
-      "hash": "51e9c99f8813eefeaebfbaf4c9bb8f148e1059ea"
+      "hash": "9f8d573dac171ae357677ee34eaa291b0f1a18cd"
     },
     "jp.co.tis.extreal.core.logging": {
       "version": "https://github.com/extreal-dev/Extreal.Core.Logging.git#1.2.0",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "b8f5ac759bf34c92f5a276c76dae3a952e14f73e"
+      "hash": "460ebea3b77ee572f81bf6217c2fbb31e7a66158"
     },
     "jp.co.tis.extreal.core.stagenavigation": {
       "version": "https://github.com/extreal-dev/Extreal.Core.StageNavigation.git#1.2.0",
@@ -294,7 +294,7 @@
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0"
       },
-      "hash": "3f819c0fbe2611cb0468069e25d1dfdeb05f1a33"
+      "hash": "764979bc0a2d4beded6aec41c22c9da7b6338ca1"
     },
     "jp.co.tis.extreal.integration.chat.vivox": {
       "version": "https://github.com/extreal-dev/Extreal.Integration.Chat.Vivox.git#1.2.0",
@@ -307,7 +307,7 @@
         "com.cysharp.unitask": "2.3.3",
         "com.neuecc.unirx": "7.1.0"
       },
-      "hash": "5973ed3bcb5fea8f64318a2e131d27d9dfdfc9f0"
+      "hash": "0446fae0cc9282ea0719312df7d05d010895be0a"
     },
     "jp.hadashikick.vcontainer": {
       "version": "1.13.0",
